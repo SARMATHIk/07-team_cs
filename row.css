@@ -1,0 +1,10 @@
+.heading {
+  background-color: rgb(222, 217, 208);
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.teamBody {
+  /* background-color: blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

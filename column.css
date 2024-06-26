@@ -1,0 +1,14 @@
+.johnDeo {
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.johnDeoCardBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,39 @@
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+/* for Responsive Target the ROW Code (display:grid) */
+/* Small devices (landscape phones, upto 576px and below) */
+@media (width <=576px) {
+  .teamBody {
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+/* Medium devices (tablets, upto 768px and above) */
+@media (width >=577px) and (width <=768px) {
+  .teamBody {
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+/* Large devices (Laptops, upto 992px and above) */
+@media (width >=769px) and (width <=992px) {
+  .teamBody {
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+@media (width >=993px) and (width <=1200px) {
+  .teamBody {
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+@media (min-width: 1400px) {
+}

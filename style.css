@@ -1,0 +1,42 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #baebed;
+  font-family: "Merienda", cursive;
+  font-family: "Nunito", sans-serif;
+}
+:root {
+  --primaryColor: #be9c79;
+  --secondaryColor: #666666;
+  --textDarkColor: #000000;
+  --textLightColor: #ffffff;
+  --tertiaryColor: #3a3737;
+  --regularFont: 16px;
+  --headingFont: 54px;
+  --sebHeadingFont: 18px;
+  --paragraph: 16px;
+  --linkButtons-Font: 16px;
+  --border: 0.1rem solid var(var(--black));
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  --fontFamilyPrimary: "Merienda", cursive;
+  --fontFamilySecondary: "Nunito", sans-serif;
+}
+.align {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+/* default code ends here */
